@@ -9,11 +9,6 @@ const client = new Discord.Client({ intents: [
 const rest = new Discord.REST({ version: '10' }).setToken(process.env.TOKEN);
 
 const QUERY_LIMIT = 25;
-const COMMAND = 
-{
-    name: "z-gif",
-    description: "generate a random GIF",
-}
 
 const register_cmds = async () => {
     try {
